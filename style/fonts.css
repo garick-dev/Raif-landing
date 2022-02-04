@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'ALS-Hauss';
+    src: local(''), url('../fonts/als_hauss_medium.woff') format('woff'),
+         url('../fonts/als_hauss_medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ALS-Hauss';
+    src: local(''), url('../fonts/als_hauss_regular.woff') format('woff'),
+         url('../fonts/als_hauss_regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ALS-Hauss';
+    src: local(''), url('../fonts/ALS_Hauss_Medium_2.1.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ALS-Hauss';
+    src: local(''), url('../fonts/ALS_Hauss_Regular_2.1.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Navigo';
+    src: local(''), url('../fonts/Navigo-Black-Web.woff') format('woff'),
+         url('../fonts/Navigo-Black-Web.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Navigo';
+    src: local(''), url('../fonts/Navigo-Bold-Web.woff') format('woff'),
+         url('../fonts/Navigo-Bold-Web.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Navigo';
+    src: local(''), url('../fonts/Navigo-Regular-Web.woff') format('woff'),
+         url('../fonts/Navigo-Regular-Web.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
