@@ -96,15 +96,27 @@ document.addEventListener("DOMContentLoaded", (ev) => {
 
     const hideButton = () => {
         const btn = document.querySelector(".button_promo");
-        document.querySelector('body').onwheel = function() {
-            let c = this.getBoundingClientRect()
-            if (c.top <= -1700 && c.top >= -2600) {
-                btn.classList.add("hidden");
-            }
-            else {
-                btn.classList.remove("hidden");
-            }
+        const orderSection = document.querySelector(".order");
+
+        const options = {
+            root: null,
+            threshold: 0,
+            rootMargin: "0px"
         }
+
+        const observer = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    btn.classList.remove("hidden");
+                }
+                else {
+                   btn.classList.add("hidden");
+                }
+            })
+        }, options)
+
+        observer.observe(orderSection);
+
     }
     hideButton();
 
